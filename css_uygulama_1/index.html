@@ -7,7 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Uygulama1</title>
     <link rel="stylesheet" href="style.css">
+    <!-- css dosyamızı çekmek için kulladıgımız yapı external css şeklinde kullandık burada ondan çekme işlemi yaptık -->
 </head>
+<!-- 
+    burada da yazabilirdik <style> etiketi içine css dosyasına yazdıklarımızı buda internal css olarak geçerdi
+ -->
 
 <body>
     <header>
@@ -33,6 +37,7 @@
                     <label for="backend">Backend Dili Öğren</label>
                 </li>
                 <li style="text-decoration-line: none; background-color: blue;">
+                    <!-- burada ise bu liste elemanının özellilerini farklı verdik diğerine göre genel özellikler kullanılmasın dedik bunuda inline css olarak tanımlayabiliriz -->
                     <input type="checkbox" name="angular" id="angular">
                     <label for="angular">Angular/React Öğren</label>
                 </li>
