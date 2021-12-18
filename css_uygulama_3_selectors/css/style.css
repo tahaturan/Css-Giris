@@ -2,58 +2,74 @@ body{
     font-size: 14px;
     background: #f2f2f2;
 }
+/* tüm bady kısmını etkiler */
 h1{
     border: 1px solid gray;
     padding: 5px;
 }
+/* tüm h1 etiktlerini etkiler */
 h2{
     color: red;
 }
+/* tüm h2 etiklerini etkiler */
 h2.active{
     border: 1px solid green;
 }
+/* class ı active olan h2 etiketlerini etkiler */
 p#paragraf{
     font-weight: bold;
 }
+/* id si paragraf olan p etiklerini etkiler */
 div h3{
     background-color:gold;
 }
+/* divin içindeki h3 etiketlerini etkiler */
 h1~p{
     background-color: red;
 }
+/* div ile aynu hizada olan p etiklerini etkiler */
 div>p{
     background-color: green;
 }
+/* diz içindeki p etiklerini etkiler */
 ul li{
     border: 1px solid gray;
     margin-top: 2px;
 }
+/* ul etininn içindeki li etiketlerini etkiler */
 .active{
     background: gold;
-}  
+}
+/* class ı active olan etiketleri etkiler  */
 ul li.active{
     background: gold;
 }
+/* ul etiketi içindeki class ı active olan li etiketlerini etkiler */
 ul li:first-child{
     word-spacing: 5px;
 }
+/* ul içindeki li etiketlerini ilknini etkiler */
 ul li:last-child{
     letter-spacing: 5px;
 }
+/* ul etikedi içindeki li etiklerinin en sonuncusunu etkiler */
 ul li:nth-child(odd){
     color: green;
     font-weight: bold;
 }
+/* ul içindeki li etiklerinin sıra sayısının tek olanlarını etkiler */
 ul li:nth-child(even){
     color: orange;
     font-weight: bold;
 }
+/* ul eiketi içindeki li etiketlerinin sıra sayısı çift olanları etkiler  */
 input{
     width: 100% ;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
 }
+/* tüm input etikeletini etkiler padding etikeeti içine yazılan yazının kutula arasındaki boslugu değiştirir margin etiketi inputun alttan üstten bosluklarını etkiler */
 input[type="submit"]{
     width: 100% ;
     background: green;
@@ -64,12 +80,16 @@ input[type="submit"]{
     border-radius: 4px;
     cursor: pointer;
 }
+/* input etikelerinden type ı submit olanları etkiler with genişliği, border cerveçesini border-radius ise kenarlık kesimlerini belirler cursor ise üzerine geldiğimizde imlemicimizin el işaratine dönmesini sağlar */
 input[type="submit"]:hover{
     background-color: #45a049;
 }
+/* input etiketinin type ı submit olanalrını etkiler hover ise imleç üzerine geldiğinde yapılacak işlemleri etkiler */
 input[type="text"]:focus{
     background-color: lightgoldenrodyellow;
 }
+/* input etikenin type ı submit olanı etkiler ve onraya basıldıgında yapılacak işlemleri etkiler focus etiketide  */
 input[type="password"]:focus{
     background-color: lightgoldenrodyellow;
 }
+/* input etikenin type ı password olanı etkiler ve onraya basıldıgında yapılacak işlemleri etkiler focus etiketide  */
