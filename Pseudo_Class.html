@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class</title>
+    <!-- 
+        Kullanım Şekli
+        selectors:pseudo_class{
+            islemler
+        }
+    şeklinde
+    -->
+    <style>
+        a {
+            font-size: 24px;
+        }
+
+        a:hover {
+            font-size: 50px;
+            background: brown;
+        }
+
+        /* hover üzerine imleçle geldiğinde napılcak onu söylüyoruz biz yazı boyutunu büyüttük ve arka plan rengi verdik*/
+        a:link {
+            color: green;
+        }
+
+        /* bu etiket ise linke tıklanmadan önce ki halini verdiğimiz özellik */
+        a:visited {
+            color: grey;
+        }
+
+        /* bu özellik ise tıklandıgı zaman alacagı özellik */
+        a:active {
+            color: lavender;
+        }
+
+        /* burada ise tıklarken olacagı işlemi belirttik */
+    </style>
+</head>
+
+<body>
+    <a href="#"> Link 1</a>
+
+</body>
+
+</html>

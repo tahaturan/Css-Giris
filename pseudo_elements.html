@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Elements</title>
+
+    <!-- 
+        Kullanım şekli
+        selectors::elements{
+            işlemler
+        }
+     -->
+    <style>
+        .para1 {
+            font-size: 1.5em;
+            letter-spacing: 2px;
+            /* harfler arası aralık verdik */
+            line-height: 1.5em;
+            /* satırlar arası aralık  verdik */
+        }
+
+        .para1::first-line {
+            color: red;
+            /* ilk satıra işlem uyguladık */
+        }
+
+        .para1::first-letter {
+            color: blue;
+            font-size: 50px;
+            /* ilk harf için işlme uyguladık */
+        }
+
+        .para1::after {
+            content: "Paragraf sonu Ekeleme";
+            /* sonuna ekleme işlemi yaptık aynı şekşlde before dersekde basına ekleme yapmamızı sağlar */
+        }
+    </style>
+</head>
+
+<body>
+    <p class="para1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus amet unde voluptatibus aliquid quia
+        tenetur, atque id modi fugiat velit quasi error asperiores porro odio doloremque itaque iure veniam enim
+        temporibus ea rem magni officiis totam officia. Qui voluptates tempore corporis praesentium provident eaque
+        culpa exercitationem aliquid ducimus, blanditiis similique numquam consequatur quis at necessitatibus amet
+        aspernatur iste tempora dicta. Reprehenderit architecto vero perspiciatis magni aspernatur enim id dolores
+    </p>
+
+</body>
+
+</html>
