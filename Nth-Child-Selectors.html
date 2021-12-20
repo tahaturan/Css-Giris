@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nth-Child Selectors</title>
+    <style>
+        p {
+            font-size: 1.5em;
+        }
+
+        p:nth-child(1) {
+            color: red;
+            /* birinci cocuga git işlem yap dedik */
+        }
+
+        p:first-child {
+            background: royalblue;
+            /* 
+            bu şekilde de ilk cocuguna gidebiliriz */
+        }
+
+        p:last-child {
+            color: blue;
+            /* bu şekilde de son çocuga git diyebiliriz */
+        }
+
+        p:nth-child(even) {
+            background: burlywood;
+            /* burada da sayısı çift olan cocuklara git yani sıra sayısı */
+        }
+
+        p:nth-child(odd) {
+            background: chocolate;
+            /* burada da sıra sayısı tek olan cocuklara git işlme yap diyoruz */
+        }
+    </style>
+</head>
+
+
+<body>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Voluptatibus minus maiores quasi culpa!</p>
+    <p>Magni sint odio dignissimos laborum.</p>
+    <p>Sed eos vitae nobis repellat?</p>
+    <p>Eos iusto quidem nam nisi.</p>
+    <!-- burada body birr kapsayıcı etiket yani parrent element altındaki p eetikleri ise cocuk elementler -->
+</body>
+
+</html>
