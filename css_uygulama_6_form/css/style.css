@@ -56,3 +56,18 @@ label{
     background-color:brown;
     opacity: 1;
 }
+.tooltip{
+   display: none;
+   color: white;
+   border:1px solid greenyellow;
+   padding:2px;
+   font-size: small;
+   text-align: center;
+   border-radius: 7px;
+}
+
+.tool:hover .tooltip{
+    display: inline-block;
+    margin-left: 30px;
+    background-color:lightcoral;
+}
