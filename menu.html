@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yatay Menü</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+        }
+
+        li {
+            display: inline-block;
+            margin-right: 1px;
+        }
+
+        li a {
+            display: block;
+            background: brown;
+            min-width: 140px;
+            color: white;
+            text-decoration: none;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .yatay li a {
+            background: grey;
+        }
+
+        .yatay li a:hover {
+            background: lightgreen;
+        }
+
+        .yatay {
+            display: none;
+        }
+
+        .yatay li {
+            padding: 2px;
+            display: block;
+            margin-left: -2px;
+
+        }
+
+        ul li a:hover {
+            background: lightcoral;
+        }
+
+        ul li #kurs:hover+.yatay,
+        .yatay:hover {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>
+            <a href="#">
+                <i class="fas fa-home"></i>
+                Ana Sayfa
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="far fa-address-card"></i>
+                Hakkımızda
+            </a>
+        </li>
+        <li>
+            <a href="#" id="kurs">
+                <i class="fab fa-discourse"></i>
+                Kurslar
+            </a>
+            <ul class="yatay">
+                <li>
+                    <a href="#">
+                        <i class="fab fa-js-square"></i>
+                        Javascript
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fab fa-python"></i>
+                        Python
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fas fa-file-code"></i>
+                        Html - Css
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">
+                <i class="fas fa-newspaper"></i>
+                Makale
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="fas fa-file-signature"></i>
+                İletişim
+            </a>
+        </li>
+    </ul>
+
+</body>
+
+</html>
