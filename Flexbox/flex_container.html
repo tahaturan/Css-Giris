@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Container</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            /* bu özellik sıralamanın nasıl yapılcagını belirler varsıylan değeri row dur yani satırda sırala row-reverse yaparsak da sağdan değilde soldan sıralar column yaparsak da sütün olarak sıralar yukarıdan aşağıya yani column-reverse dersek de sıralamayı tersten yapar  */
+            flex-wrap: wrap;
+            /* bu ise çok fazla eleman eklediğimizde sürekli yanyana koymaya çalısacak ve sıgmama durumlarında da tasma olacak varsılan özelliği nowrap şeklindedir ama biz bunu wrap yaparsak herhangi bir tasma durumunda tasan elemanları divleri alt satıra geçirecektir 
+            wrap-reverse dersekde sıgmayan elemanları yukarı satıra atacaktır yani tersten yapacaktır
+            */
+            background-color: gray;
+            padding: 15px;
+        }
+
+        .item {
+            padding: 30px;
+            background-color: chocolate;
+            margin: 30px;
+            color: white;
+            font-size: 25px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item">item 1</div>
+        <div class="item">item 2</div>
+        <div class="item">item 3</div>
+        <div class="item">item 4</div>
+        <div class="item">item 5</div>
+        <div class="item">item 6</div>
+        <div class="item">item 7</div>
+        <div class="item">item 8</div>
+    </div>
+
+</body>
+
+</html>
