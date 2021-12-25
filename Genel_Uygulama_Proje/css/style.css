@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+/* En Üst Linkler Kısmı */
+.ust{
+    width: 100%;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+}
+.navigation{
+    margin-right: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+.navigation li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.navigation li a{
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.homeplus{
+    margin-left: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.homeplus a{
+    text-decoration: none;
+}
+
+span{
+    color: #66C276;
+}
+/* ********** */
+
+/* Real Estate Kısmı */
+.real{
+    width: 100%;
+    height: 500px;
+}
+.bg-img{
+    position:absolute;
+    width: 100%;
+    opacity: 0.95;
+    z-index: -1;
+}
+.bg-aciklama{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 400px;
+    height: 220px;
+    background-color: rgba(0, 0,0, 0.5);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.bg-aciklama p{
+    padding:20px;
+
+}
+.price{
+    display: flex;
+    justify-content:space-between;
+}
+.price a{
+    color: white;
+}
+/* ************** */
+
+
+
