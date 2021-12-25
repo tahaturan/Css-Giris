@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Container</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            /* justify-content: center; */
+            /* bu özellik elemanları yatayda hizalar mesela center dedik yani oraya hizalayacaktır
+            flex-start dersek elemanlar solda hizalanır flex-rigth dersek de elemanlar sağ tarafta hizalanır 
+            space-between dersek de her elemanın arasına eşit bosluk bırakalar sıralama yapar
+            space-around dersek de bastan x lik bosluk elemalar arasında da 2x lik bsoluk yani 2 katı şekilde bosluk bırakarak sıralar
+            space-evenly dersek de her yerden bastan da sonran da aralarında da eşit şekilde bosluk bırakarak sıralar
+            */
+            background-color: gray;
+            padding: 15px;
+        }
+
+        .item {
+            padding: 30px;
+            background-color: chocolate;
+            margin: 30px;
+            color: white;
+            font-size: 25px;
+
+        }
+
+        .i1 {
+            align-self: stretch;
+            order: 1;
+        }
+
+        .i2 {
+            height: 200px;
+            order: 2;
+        }
+
+        .i3 {
+            align-self: flex-start;
+            order: -1;
+        }
+
+        .i4 {
+            align-self: flex-end;
+            /* align-self  bireysel hizalama yapmamızı sağlıyor */
+            order: -8;
+            /* order sayısal büyüklüklerine göre sıralama yapar en küçük değeri en basa alır */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item i1">item 1</div>
+        <div class="item i2">item 2</div>
+        <div class="item i3">item 3</div>
+        <div class="item i4">item 4</div>
+    </div>
+
+</body>
+
+</html>
