@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    background-color:chocolate;
+    font-size: 2em;
+    justify-content:flex-end;
+    padding-right: 20px;
+
+}
+.link{
+    text-decoration: none;
+    margin-left: 50px;
+    color: white;
+}
+.link:hover{
+    background-color: lightseagreen;
+}
+
+@media screen and (max-width:600px) {
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .link{
+        display: inline-block;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        border-bottom: 2px solid lightslategray;
+    }
+    
+}
+@media screen and (max-width:1200px) {
+    nav{
+        justify-content:space-around;
+    }
+    
+}
