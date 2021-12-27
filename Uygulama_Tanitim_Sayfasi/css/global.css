@@ -21,6 +21,36 @@
 .bg-light-blue{
     background: #336ea2;
 }
+/* Buttons */
+.btn{
+    margin-top: 1rem;
+    padding:0.7rem 3rem;
+    border-radius: 10px;
+    letter-spacing: 0.6px ;
+}
+
+.btn-primary{
+    background: #336ea2;
+}
+.btn-primary:hover{
+    color: #336ea2;
+    background: white;
+    border:0.6px solid #336ea2;
+}
+
+.btn-dark{
+    background-color: #333;
+}
+.btn-dark:hover{
+    color: #333;
+    background: white;
+    border:0.6px solid #333;
+}
+.btn-block{
+    width: 100%;
+    text-align: center;
+}
+
 /* Conrainer */
 
 .container{
