@@ -90,7 +90,7 @@ section.main-a{
     display: flex;
     width: 75%;
     margin: 30px auto;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 section.main-a .box-a{
     max-width: 25%;
@@ -122,6 +122,7 @@ section.main-b{
     width: 75%;
     margin: 30px auto;
     display: flex;
+    justify-content: space-between;
 }
 section.main-b h2{
     margin-left: 50px;
@@ -131,18 +132,22 @@ section.main-b h2{
 section.main-b .home{
     width: 75%;
     display: flex;
-    margin-left: 50px;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 section.main-b .box-home{
+    width: 25%;
     padding: 10px;
     background-color: #D1F8FE;
     border-bottom: 2px solid greenyellow;
-    margin-right: 30px;
+    margin-right: 20px;
     margin-bottom: 20px;
 }
 section.main-b .box-home .home-img{
     position: relative;
+}
+section.main-b .box-home .home-img img{
+    width: 100%;
 }
 section.main-b .box-home span{
     position: absolute;
@@ -177,6 +182,44 @@ section.main-b .box-home .home-info-2{
 }
 
 /* Find */
+section.main-b .find{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+section.main-b .find .form{
+    padding: 30px;
+    background-color: lightgreen;
+}
+section.main-b .find .form-a label{
+    display: block;
+}
+section.main-b .find .form-a select{
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+section.main-b .find .form .find-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.form-b label{
+    display: block;
+}
+.form-b select{
+    width: 120px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.find .form .search a{
+    background-color:rgb(213, 153, 253);
+    display: inline-block;
+    width: 100%;
+    padding: 7px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
 
 
 
