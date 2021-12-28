@@ -190,6 +190,7 @@ section.main-b .find{
 section.main-b .find .form{
     padding: 30px;
     background-color: lightgreen;
+    color: white;
 }
 section.main-b .find .form-a label{
     display: block;
