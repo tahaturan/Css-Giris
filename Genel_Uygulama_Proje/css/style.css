@@ -104,6 +104,8 @@ section.main-a .box-a{
     background-color: #D1F8FE;
     height: auto;
     padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 section.main-a .box-a:hover{
     opacity: 0.7;
@@ -162,6 +164,7 @@ section.main-b .box-home .home-img{
 }
 section.main-b .box-home .home-img img{
     width: 100%;
+    height: 250px;
 }
 section.main-b .box-home span{
     position: absolute;
@@ -188,6 +191,12 @@ section.main-b .box-home span.rent{
     font-size: 1rem;
     color: white;
     padding: 5px;
+}
+section.main-b .box-home .home-info{
+    padding: 10px;
+}
+section.main-b .box-home .home-info hr{
+    margin-top: 10px;
 }
 section.main-b .box-home .home-info-2{
     display: flex;
@@ -238,6 +247,67 @@ section.main-b .find .form .find-flex{
 .find .form .search a:hover{
     opacity: 0.8;
 }
+/* Agents */
+.find .agents{
+    margin-top: 40px;
+}
+.find .agents .profile{
+    display: flex;
+    padding: 5px;
+}
+.find .agents .profile .image img{
+    border: 1px solid black;
+    width: 100px;
+}
+.find .agents .profile .profile-info{
+    margin-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.find .agents .profile .profile-info .p-title{
+    margin-bottom: 4px;
+    letter-spacing: 1px;
+}
+.find .agents .profile .profile-info .p-number{
+    letter-spacing: 1px;
+}
+.find .agents .profile .profile-info .p-mail{
+    margin-top: 20px;
+    opacity: 0.6;
+}
+/* *********** */
+/* id = İmage */
+#image{
+    width: 100%;
+    height: 200px;
+}
+#image .bg-img1{
+    position: relative;
+}
+#image .bg-img1 img{
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    z-index: -1;
+}
+#image .img1-info{
+    text-align: center;
+    color: white;
+}
+#image .img1-info .tema{
+    font-size: 2rem;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+#image .img1-info .taha{
+    font-size: 1.5rem
+}
+
+
+
+
+
+
 
 
 
