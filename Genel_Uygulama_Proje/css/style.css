@@ -30,6 +30,9 @@ a{
     font-size: 1.5em;
     text-decoration: none;
 }
+.navigation li a:hover{
+    opacity: 0.7;
+}
 
 .homeplus{
     margin-left: 20%;
@@ -40,6 +43,9 @@ a{
 
 .homeplus a{
     text-decoration: none;
+}
+.homeplus a:hover{
+    opacity: 0.7;
 }
 
 span{
@@ -99,6 +105,11 @@ section.main-a .box-a{
     height: auto;
     padding: 20px;
 }
+section.main-a .box-a:hover{
+    opacity: 0.7;
+    background-color: grey;
+    color: white;
+}
 section.main-a .box-a .icon{
     width: 3rem;
     font-size: 2.5rem;
@@ -142,6 +153,9 @@ section.main-b .box-home{
     border-bottom: 2px solid greenyellow;
     margin-right: 20px;
     margin-bottom: 20px;
+}
+section.main-b .box-home:hover{
+    opacity: 0.7;
 }
 section.main-b .box-home .home-img{
     position: relative;
@@ -220,6 +234,9 @@ section.main-b .find .form .find-flex{
     text-align: center;
     color: white;
     border-radius: 10px;
+}
+.find .form .search a:hover{
+    opacity: 0.8;
 }
 
 
