@@ -85,7 +85,7 @@ span{
     color: white;
 }
 /* ************** */
-/* Picsel Perfect */
+/* Main-a */
 section.main-a{
     display: flex;
     width: 75%;
@@ -116,6 +116,68 @@ section.main-a .box-a .main-a-info p{
     margin-bottom: 5px;
     padding: 2px;
 }
+/* ************ */
+/* Main-b */
+section.main-b{
+    width: 75%;
+    margin: 30px auto;
+    display: flex;
+}
+section.main-b h2{
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+/* Home */
+section.main-b .home{
+    width: 75%;
+    display: flex;
+    margin-left: 50px;
+    flex-wrap: wrap;
+}
+section.main-b .box-home{
+    padding: 10px;
+    background-color: #D1F8FE;
+    border-bottom: 2px solid greenyellow;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+section.main-b .box-home .home-img{
+    position: relative;
+}
+section.main-b .box-home span{
+    position: absolute;
+}
+section.main-b .box-home span.sale{
+    top: 0;
+    left: 0;
+    background-color: limegreen;
+    font-size: 1rem;
+    color: white;
+    padding: 5px;
+}
+section.main-b .box-home span.price{
+    top: 0;
+    right: 0;
+    background-color: grey;
+    padding: 5px;
+    color: black;
+}
+section.main-b .box-home span.rent{
+    top: 0;
+    left: 0;
+    background-color: lightgrey;
+    font-size: 1rem;
+    color: white;
+    padding: 5px;
+}
+section.main-b .box-home .home-info-2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+/* Find */
+
 
 
 
