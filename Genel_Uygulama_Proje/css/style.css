@@ -474,7 +474,38 @@ footer.up .social i{
 footer.up .social a:hover{
     opacity: 0.5;
 }
-
+/* *********** */
+/* Footer Down */
+footer.down{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+footer.down .down-nav ul{
+    list-style-type: none;
+}
+footer.down .down-nav ul li{
+    display: inline-block;
+    padding-right: 15px;
+}
+footer.down .down-nav ul li a{
+    opacity: 0.5;
+}
+footer.down .down-nav ul li a:hover{
+    opacity: 0.9;
+}
+section.about .up{
+    display: flex;
+    justify-content: flex-end;
+}
+section.about .up a i{
+    font-size: 3rem;
+}
+section.about .up a:hover{
+    opacity: 0.6;
+}
 
 
 
