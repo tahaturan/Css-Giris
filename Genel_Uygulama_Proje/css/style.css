@@ -380,6 +380,105 @@ section.main-c .title-why .info-why .why-info{
     text-align: justify;
 
 }
+/* ********** */
+/* about */
+section.about{
+    width: 100%;
+    background-color: lightgray;
+    opacity: 0.8;
+    margin-top: 30px;
+}
+/* --------- */
+/* footer-up */
+footer.up{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+/* ----------------- */
+footer.up .photo{
+    width: 25%;
+}
+footer.up .photo h2{
+    padding-bottom: 20px;
+}
+/* ----------------------- */
+footer.up .about-us{
+    width: 25%;
+}
+footer.up .about-us h2{
+    padding-bottom: 20px;
+}
+footer.up .about-us p{
+    padding-right: 70px;
+    text-align: justify;
+}
+/* ------------------ */
+footer.up .latest{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+footer.up .latest h2{
+    padding-bottom: 20px;
+}
+footer.up .latest .date-1{
+    display: flex;
+}
+footer.up .latest .date-1 .icon-d1{
+    font-size: 3rem;
+    color: green;
+    padding-right: 30px;
+    padding-bottom: 60px;
+}
+footer.up .latest .date-1 .d1-info span.d1{
+    opacity: 0.5;
+    color: grey;
+    display: block;
+    padding-bottom: 8px;
+}
+/* ------------------ */
+footer.up .address{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-left: 40px;
+}
+footer.up .address h2{
+    padding-bottom: 20px;
+}
+footer.up .address span{
+    font-weight: bold;
+    color: black;
+    margin-right: 20px;
+    display: block;
+    margin-bottom: 5px;
+}
+footer.up .all-info{
+    display: flex;
+}
+footer.up .address p{
+    margin-bottom: 5px;
+}
+/* ---------------- */
+footer.up .social{
+    margin-top: 10px;
+    display: flex;
+}
+footer.up .social i{
+    padding:7px;
+    font-size: 1.9rem;
+}
+footer.up .social a:hover{
+    opacity: 0.5;
+}
+
+
+
+
+
 
 
 
