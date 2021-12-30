@@ -157,7 +157,7 @@ section.main-b .box-home{
     margin-bottom: 20px;
 }
 section.main-b .box-home:hover{
-    opacity: 0.7;
+    opacity: 0.6;
 }
 section.main-b .box-home .home-img{
     position: relative;
@@ -245,7 +245,7 @@ section.main-b .find .form .find-flex{
     border-radius: 10px;
 }
 .find .form .search a:hover{
-    opacity: 0.8;
+    opacity: 0.7;
 }
 /* Agents */
 .find .agents{
@@ -472,7 +472,7 @@ footer.up .social i{
     font-size: 1.9rem;
 }
 footer.up .social a:hover{
-    opacity: 0.5;
+    opacity: 0.6;
 }
 /* *********** */
 /* Footer Down */
@@ -494,7 +494,7 @@ footer.down .down-nav ul li a{
     opacity: 0.5;
 }
 footer.down .down-nav ul li a:hover{
-    opacity: 0.9;
+    opacity: 0.8;
 }
 section.about .up{
     display: flex;
@@ -504,7 +504,7 @@ section.about .up a i{
     font-size: 3rem;
 }
 section.about .up a:hover{
-    opacity: 0.6;
+    opacity: 0.7;
 }
 
 
